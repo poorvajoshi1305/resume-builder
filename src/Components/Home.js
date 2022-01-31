@@ -9,15 +9,15 @@ import Navbar from "./Navbar";
 
 function Home() {
 
-  useEffect(() => {
-    document.title = "index";
-    if (sessionStorage.getItem("userSession") == null) {
-        window.location = "/login"
-    } else if (localStorage.getItem("user") == null) {
-        window.location = "./login"
-    }
+//   useEffect(() => {
+//     document.title = "index";
+//     if (sessionStorage.getItem("userSession") == null) {
+//         window.location = "/login"
+//     } else if (localStorage.getItem("user") == null) {
+//         window.location = "./login"
+//     }
 
-})
+// })
 
 
   return (
